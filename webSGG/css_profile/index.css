@@ -1,0 +1,65 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+}
+
+/* start顶部导航栏 */
+.topbar {
+    font-size: 0;
+    height: 30px;
+    overflow: hidden;
+}
+.topbar_left,.topbar_right {
+    line-height: 30px;
+}
+.topbar span,.topbar a {
+    font-size: 12px;
+}
+.welcomeword {
+    margin: 28px;
+}
+.login {
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+}
+.register {
+    padding-left: 10px;
+}
+.topbar_right_ul span {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+.topbar_right_ul li:first-child>span {
+    padding-left: 0;
+}
+.topbar_right_ul li:last-child>span {
+    padding-right: 0;
+    border-right: none;
+}
+/* end顶部导航栏 */
+
+/* start搜索栏 */
+.header_search {
+    height: 120px;
+    font-size: 0;
+    background-color: skyblue;
+}
+.header_search-clear {S
+    font-size: 12px;
+}
+.header_search-input {
+    /* display: inline-block; */
+    width: 510px;
+    height: 34px;
+    border: 1px solid #DD302D;
+    /* vertical-align: middle; */
+    /* margin-top: 41px; */
+}
+.header_search-ilb {
+    display: inline-block;
+    height: 36px;
+    width: 80px;
+    background-color: #DD302D;
+    /* margin-top: 42px; */
+    /* vertical-align: middle; */
+}
