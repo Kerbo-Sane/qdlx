@@ -1,0 +1,16 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+}
+
+/* 顶部导航区 */
+.topbar {
+    background-color: #ececec;
+}
+.tbleft * {
+    font-size: 0;
+}
+
+/* .welcome {
+    padding-right: 28px;
+} */
