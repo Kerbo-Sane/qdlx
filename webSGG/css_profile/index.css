@@ -40,3 +40,7 @@
 .tbright li:last-child>a {
     border: none;
 }
+/* 头部区域 */
+.hdright input {
+    border: 1px solid #DD302D;
+}
