@@ -89,3 +89,23 @@
 }
 
 /* 首页核心区Home Hero/Entry */
+.sort-list {
+    background-color: #F4F4F4;
+}
+.sort-list li {
+    padding: 4px 16px;
+}
+.sort-list li:first-child {
+    padding-top: 9px;
+}
+.sort-list li:last-child {
+    padding-bottom: 9px;
+}
+.sort-list li {
+    font-size: 14px;
+    color: #333;
+}
+.sort-list li:hover {
+    background-color: white;
+    color: #DD302D;
+}
