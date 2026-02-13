@@ -2,7 +2,12 @@
 .container {
     width: 1190px;
     margin: 0 auto;
-    
+    overflow: hidden;
+}
+.tbleft,.hdright {
+    font-size: 0;
+    /* 这句可以消除tbleft实际上溢出的情况 */
+    /* height: 30px; */
 }
 
 /* 顶部导航区 */
@@ -11,11 +16,6 @@
     height: 30px;
     line-height: 30px;
     
-}
-.tbleft {
-    font-size: 0;
-    /* 这句可以消除tbleft实际上溢出的情况 */
-    height: 30px;
 }
 .tbleft span,.tbleft a {
     font-size: 12px;
@@ -41,6 +41,51 @@
     border: none;
 }
 /* 头部区域 */
-.hdright input {
+.search-input {
     border: 1px solid #DD302D;
+    height: 34px;
+    width: 508px;
 }
+/* .header img {
+    display: inline-block;
+} */
+.search-btn {
+    height: 36px;
+    width: 80px;
+    background-color: #DD302D;
+    background-image: url(../img_profile/serch_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.search-area {
+    line-height: 120px;
+    /* height: 120px; */
+    /* vertical-align: middle; */
+}
+
+/* 主导航区 */
+.nav {
+    height: 48px;
+    border-bottom: 1px solid #DD302D;
+}
+.all-sort {
+    width: 190px;
+    height: 48px;
+    background-color: #DD302D;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+.nav-items {
+    line-height: 48px;
+
+}
+.nav-items a {
+    font-size: 16px;
+    /* 超链接文字如果设置了颜色，也就固定颜色了，不会因为hover而变色 */
+    color: #333;
+    padding: 0 10px;
+}
+
+/* 首页核心区Home Hero/Entry */
