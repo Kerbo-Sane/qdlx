@@ -1,16 +1,42 @@
 /* 基础设置 */
 .container {
     width: 1190px;
+    margin: 0 auto;
+    
 }
 
 /* 顶部导航区 */
 .topbar {
     background-color: #ececec;
+    height: 30px;
+    line-height: 30px;
+    
 }
-.tbleft * {
+.tbleft {
     font-size: 0;
+    /* 这句可以消除tbleft实际上溢出的情况 */
+    height: 30px;
 }
-
-/* .welcome {
+.tbleft span,.tbleft a {
+    font-size: 12px;
+}
+.welcome {
     padding-right: 28px;
-} */
+}
+.login {
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.register {
+    padding-left: 10px;
+}
+.tbright a {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+.tbright li:first-child>a {
+    padding-left: 0;
+}
+.tbright li:last-child>a {
+    border: none;
+}
