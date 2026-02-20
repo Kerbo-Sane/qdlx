@@ -1,0 +1,145 @@
+/* 通用设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    /* background-color: azure; */
+    overflow: hidden;
+}
+.tbfl,.hfr {
+    font-size: 0;
+}
+
+/* 顶部导航栏 */
+.topbar {
+    height: 30px;
+    line-height: 30px;
+    background-color: #ECECEC;
+}
+.tbfl span {
+    font-size: 12px;
+}
+.welcome {
+    margin-right: 28px;
+}
+.login span {
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.register span {
+    padding-left: 10px;
+}
+.tbfr a {
+    padding: 0 15px;
+    border-left: 1px solid #666;
+}
+.tbfr>ul>li:first-child>a {
+    padding-left: 0;
+    border-left: none;
+}
+
+/* 头部区域 */
+.hfr {
+    height: 120px;
+    line-height: 120px;
+}
+.keyword {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+}
+.search {
+    height: 36px;
+    width: 80px;
+    background-color: #DD302D;
+    background-image: url(../img_profile/serch_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 主导航区 */
+.nav {
+    border-bottom: 1px solid #DD302D;
+}
+.all-sort {
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #DD302D;
+    text-align: center;
+}
+.all-sort>span {
+    font-size: 16px;
+    color: #FFF; 
+}
+.nav-items {
+    height: 48px;
+    line-height: 48px; 
+}
+.nav-items li{
+    font-size: 16px;
+    color: #333;
+    padding: 0 10px;
+}
+/* 首页核心区-左侧 */
+.main-entry {
+    margin-top: 10px;
+}
+.sort-list {
+    height: 458px;
+    width: 190px;
+    background-color: #ECECEC;
+}
+.sort-list>ul {
+    position: relative;
+}
+.sort-list li {
+    font-size: 14px;
+    padding: 4px 0 4px 16px;
+    color: #333;
+}
+.sort-list li:hover {
+    background-color: #DD302D;
+}
+.sort-list li:hover>a {
+    color: #FFF;
+}
+.sort-list li:hover>.second-menu {
+    display: block;
+}
+.banner {
+    width: 690px;
+    height: 458px;
+    margin: auto 10px;
+    background-color: aqua;
+}
+.news-flash {
+    width: 290px;
+    height: 458px;
+    background-color: aliceblue;
+}
+.second-menu {
+    width: 690px;
+    height: 458px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    font-size: 14px;
+    display: none;
+}
+.second-menu dl {
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dt {
+    font-weight: bold;
+    width: 70px;
+    margin-right: 10px;
+}
+.second-menu dd>a {
+    padding: 0 10px;
+    border-left: 1px solid #666;
+}
+
+/* 首页核心区-右侧 */
