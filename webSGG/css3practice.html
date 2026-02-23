@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex练习</title>
+    <style>
+        .outter {
+            width: 900px;
+            height: 800px;
+            display: flex;
+            background-color: lightgray;
+            /* 主轴方向 */
+            flex-direction: row;
+            /* 主轴换行方式 */
+            flex-wrap: wrap;
+            /* 主轴方向+换行方式的复合属性 */
+            /* flex-flow: wrap-reverse column; */
+            /* 主轴的对齐方式 */
+            justify-content: flex-start;
+            /* 侧轴的对齐方式(单行) */
+            /* align-items: flex-end; */
+            /* 侧轴的对齐方式(多行) */
+            align-content: stretch;
+        }
+        .inner {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue; 
+            border: 1px solid black;
+            box-sizing: border-box;   
+        }
+        
+        .inner2 {
+            /* display: flex; */
+            height: 100px;
+            /* font-size: 90px; */
+        }
+        .inner3 {
+            /* display: flex; */
+            height: 400px;
+        }
+        /* .iin {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(126, 188, 11); 
+            border: 1px solid black;
+            box-sizing: border-box;             
+        } */
+    </style>
+</head>
+<body>
+    <!-- 伸缩容器&伸缩项目 -->
+    <div class="outter">
+        <div class="inner inner1">1</div>
+        <div class="inner inner2">2</div>
+        <div class="inner inner3">3
+            <!-- <div class="iin"></div>
+            <div class="iin"></div>
+            <div class="iin"></div> -->
+        </div>
+        <div class="inner inner4">4</div>
+        <div class="inner inner5">5</div>
+        <div class="inner inner2">6</div>
+    </div3
+</body3
+</html>
